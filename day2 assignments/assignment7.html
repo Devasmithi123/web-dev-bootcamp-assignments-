@@ -1,0 +1,26 @@
+<!-- Create a button -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title> To create a button </title>
+	<style>
+		.letter{
+			background-color: lightpink;
+		}
+	</style>
+	</head>
+	<body>
+		<p>
+			<span id="t1" class="letter">bootcamp</span>
+			is going
+			<span id="t2" class="letter">good</span>
+		</p>
+		<button type="button" onclick="changetext()">change text</button>
+			<script>
+				function changetext(){
+					document.getElementById(t1).innerHTML = "madblocks";
+				}
+			</script>
+    </body>
+</html>
